@@ -18,7 +18,7 @@ function handleClickBtn() {
   if (jsInput.value) {
     const newDiv = document.createElement('div');
     newDiv.textContent = jsDiv.textContent;
-    jsDiv.textContent = jsInput.value;
+    jsDiv.textContent = post;
     document.body.appendChild(newDiv);
   }
 }
